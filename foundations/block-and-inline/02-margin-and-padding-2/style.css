@@ -6,38 +6,41 @@ body {
 .card {
   width: 400px;
   background: #fff;
+  outline: auto;
   margin: 16px auto;
   padding: 8px;
+  display: flex;
+  flex-shrink: 1;
+}
+
+.card h1 {
+  color: aqua;
+  margin: 20px;
+  outline: auto;
+  outline-color: black;
 }
 
 .title {
-  background: #e3f4ff;
-  font-size: 16px;
-  padding: 8px;
-  margin: 8px;
-}
-
-.content {
-  background: #e3f4ff;
-  padding: 16px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  margin-left: 8px;
-  margin-right: 8px;
-}
-
-.button-container {
-  background: #506e82;
-  padding: 8px;
+  display: flex;
   text-align: center;
-  
 }
 
-button {
-  background: white;
-  border: 1px solid #eee;
-  display: block;
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+  outline: auto;
+  padding: 10px;
+  width: 40px;
+}
+
+.row {
+  width: auto;
+  display: flex;
+  padding: 12px;
   margin: auto;
-  padding: 8px 24px;
-  text-align: center;
+}
+
+.flex-item {
+  margin: 10 px;
+
 }
